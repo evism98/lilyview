@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LILYVIEW VENTURES</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF; /* Main color */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF; /* Main color */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        video {
+            width: 80%;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin: 20px auto;
+        }
+        .product-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product-item {
+            text-align: center;
+            margin: 10px;
+        }
+        .product-item img {
+            width: 100px; /* Adjust the size as needed */
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LILYVIEW VENTURES</h1>
+        <img src="images/dish.jpg" alt="Lilyview Ventures Logo" width="150">
+        <p>Manufacturing Plastic Packaging and Recycling of LDPE; HDPE</p>
+    </header>
+    <main>
+        <section>
+            <h2>About Us</h2>
+            <p>At LILYVIEW VENTURES, we are dedicated to providing high-quality plastic products while promoting sustainable practices through recycling.</p>
+            <a href="about.html">Learn more about us</a>
+        </section>
+        <section>
+             <a href="products.html">View our products</a>
+        </section>
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="images/pvc.jpg" alt="Plastic Containers"> <!-- Replace with actual image URL -->
+                    <p>Plastic Containers</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/dish.jpg" alt="Dishes"> <!-- Replace with actual image URL -->
+                    <p>Dishes</p>
+                </div>
+                <div class="product-item">
+                    <img src="images/cont.jpg" alt="Buckets"> <!-- Replace with actual image URL -->
+                    <p>Buckets</p>
+                </div>
+                <div class="product-item">
+                    <source src="images/hd.mp4" type="video/mp4"> <!-- Replace with actual image URL -->
+                    <p>Recycling Services</p>
+                    <img src="images/recy.jpg" alt="Buckets"> <!-- Replace with actual image URL -->
+                </div>
+            </div> 
+        <section>
+            <h2>Watch Our Introduction Video</h2>
+            <video controls>
+                <source src="images/vd.mp4" type="video/mp4"> <!-- Replace with your video URL -->
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+    <footer>
+        <p>Address: 191 Munhondo Road, Ruwa</p>
+        <p>&copy; 2025 LILYVIEW VENTURES</p>
+        <img src="images/LD.jpg" alt="Contact Us" width="100">
+        <img src="images/tanks.jpg" alt="Our Products" width="100">
+        <a href="contact.html">Contact Us</a>
+    </footer>
+</body>
+</html>

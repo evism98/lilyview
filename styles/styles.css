@@ -1,0 +1,64 @@
+<style>
+body {
+    font-family: 'Roboto', sans-serif; /* Default font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #007BFF; /* Main color */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+main {
+    padding: 20px;
+}
+section {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+p {
+    font-family: 'Roboto', sans-serif; /* Roboto font for paragraphs */
+    font-size: 14px; /* Font size 14 */
+    color: blue; /* Set paragraph color to blue */
+}
+h1, h2, h3, h4, h5, h6 { /* Apply styles to all heading levels */
+    font-family: 'Saint Serif', serif; /* Saint Serif font for headings */
+    font-size: 18px; /* Font size 18 */
+    color: red; /* Set heading color to red */
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007BFF; /* Main color */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+video {
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 20px auto;
+}
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.product-item {
+    text-align: center;
+    margin: 10px;
+}
+.product-item img {
+    width: 100px; /* Adjust the size as needed */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+</style>
