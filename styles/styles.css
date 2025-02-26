@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif; /* Default font */
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #4285F4;
 }
 header {
     background: #007BFF; /* Main color */
@@ -24,7 +24,7 @@ section {
 p {
     font-family: 'Roboto', sans-serif; /* Roboto font for paragraphs */
     font-size: 14px; /* Font size 14 */
-    color: blue; /* Set paragraph color to blue */
+    color: #000000; /* Set paragraph color to blue */
 }
 h1, h2, h3, h4, h5, h6 { /* Apply styles to all heading levels */
     font-family: 'Saint Serif', serif; /* Saint Serif font for headings */
