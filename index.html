@@ -6,70 +6,6 @@
     <title>LILYVIEW VENTURES</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Saint+Serif&display=swap" rel="stylesheet"> <!-- Google Fonts -->
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif; /* Default font */
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #007BFF; /* Main color */
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            background: white;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
-            padding: 15px;
-        }
-        p {
-            font-family: 'Roboto', sans-serif; /* Roboto font for paragraphs */
-            font-size: 14px; /* Font size 14 */
-            color: blue; /* Set paragraph color to blue */
-        }
-        h1, h2, h3, h4, h5, h6 { /* Apply styles to all heading levels */
-            font-family: 'Saint Serif', serif; /* Saint Serif font for headings */
-            font-size: 18px; /* Font size 18 */
-            color: red; /* Set heading color to red */
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background: #007BFF; /* Main color */
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        video {
-            width: 80%;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            display: block;
-            margin: 20px auto;
-        }
-        .product-list {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-        }
-        .product-item {
-            text-align: center;
-            margin: 10px;
-        }
-        .product-item img {
-            width: 100px; /* Adjust the size as needed */
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -77,45 +13,54 @@
         <img src="images/logo.jpg" alt="Lilyview Ventures Logo" width="250">
         <p>Manufacturing of Plastic Packaging and Recycling of LDPE; HDPE</p>
     </header>
+    
     <main>
         <section>
             <h2>About Us</h2>
             <p>At LILYVIEW PLASTICS, we are dedicated to providing high-quality plastic products while promoting sustainable practices through recycling.</p>
             <a href="about.html">Learn more about us</a>
         </section>
+
+        <section>
+            <h3>Contact Us</h3>
+            <a href="contact.html">Contact us</a>
+        </section>
+
         <section>
             <h2>Our Products</h2>
             <div class="product-list">
+                <a href="product.html">Our products</a>
                 <div class="product-item">
-                    <img src="images/dish.jpg" alt="Plastic Containers"> <!-- Replace with actual image URL -->
+                    <img src="images/dish.jpg" alt="Plastic Containers">
                     <p>Plastic Containers</p>
                 </div>
                 <div class="product-item">
-                    <img src="images/recy.jpg" alt="Dishes"> <!-- Replace with actual image URL -->
+                    <img src="images/recy.jpg" alt="Dishes">
                     <p>Dishes</p>
                 </div>
                 <div class="product-item">
-                    <img src="images/LD.jpg" alt="Buckets"> <!-- Replace with actual image URL -->
+                    <img src="images/LD.jpg" alt="Buckets">
                     <p>Buckets</p>
                 </div>
                 <div class="product-item">
-                    <img src="images/pvc.jpg" alt="Recycling Services"> <!-- Replace with actual image URL -->
+                    <img src="images/pvc.jpg" alt="Recycling Services">
                     <p>Recycling Services</p>
                 </div>
             </div>
+        </section>
+
         <section>
             <h2>Watch Our Introduction Video</h2>
             <video controls>
-                <source src="images/vd.mp4" type="video/mp4"> <!-- Replace with your video URL -->
+                <source src="images/vd.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </section>
     </main>
+
     <footer>
         <p>Address: 191 Munhondo Road, Ruwa</p>
         <p>&copy; 2025 LILYVIEW PLASTICS</p>
-        <img src="contact.png" alt="Contact Us" width="100">
-        <img src="products.png" alt="Our Products" width="100">
     </footer>
 </body>
 </html>
